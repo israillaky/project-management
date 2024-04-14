@@ -6,15 +6,6 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
-## Run command 
-- composer install
-- npm install or yarn 
-- cp .env.example .env (This will create a copy of the .env.example file in your project and name the copy simply .env.)
-- php artisan key:generate
-- php artisan migrate:refresh --seed (migrate also seed) 
-- run both artisan serve  and npm run dev 
-- login (test@example.com, pass123)
-- verification can be found in logs (storage\logs\laravel.log)
 
 ## About Laravel
 
@@ -29,6 +20,17 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
 -   [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
 
 Laravel is accessible, powerful, and provides tools required for large, robust applications.
+
+## Run command
+
+-   composer install
+-   npm install or yarn
+-   cp .env.example .env (This will create a copy of the .env.example file in your project and name the copy simply .env.)
+-   php artisan key:generate
+-   php artisan migrate:refresh --seed (migrate also seed)
+-   run both artisan serve and npm run dev
+-   login (test@example.com, pass123)
+-   verification can be found in logs (storage\logs\laravel.log)
 
 ## Learning Laravel
 
